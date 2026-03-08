@@ -61,9 +61,13 @@
 .learnhub-landing nav a:hover {
   color: var(--lh-orange);
 }
+.learnhub-landing nav a.btn-primary,
+.learnhub-landing nav a.btn-primary:hover {
+  color: #000;
+}
 
 .learnhub-landing .btn-primary {
-  background: var(--lh-orange);
+  background: #f79009;
   color: #000;
   font-weight: 700;
   border: none;
@@ -71,11 +75,11 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
-  transition: filter 0.2s;
+  transition: background-color 0.2s;
   text-decoration: none;
 }
 .learnhub-landing .btn-primary:hover {
-  filter: brightness(1.15);
+  background: #ffa726;
 }
 
 .learnhub-landing .btn-outline {
